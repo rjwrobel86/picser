@@ -5,7 +5,7 @@ import numpy as np
 import requests
 import os
 
-df = pd.read_csv("feed2.csv")
+df = pd.read_csv("feed.csv")
 
 cols = ['ID', 'Image URL'] 
 df = df[cols]
